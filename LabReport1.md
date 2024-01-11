@@ -1,5 +1,5 @@
 # 1. Example of using the command with no arguments for cd, ls, and cat
-## cd 
+'cd 
 <img width="419" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/b2e53e14-d2ae-4a6e-a161-2ac71f991177">
 
 ## ls
