@@ -32,8 +32,8 @@ These are Horizontal rules
 
 'This is Inline code' !!
 
-'''
+```
 This is code block!
-'''
+```
 
 
