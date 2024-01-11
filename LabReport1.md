@@ -14,10 +14,10 @@
 
 # 3. Example of using the command with a path to a file as an argument
 ## cd
-<img width="221" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/551ae166-c807-45b4-a2bd-ffdc661141c8">
+<img width="681" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/e69b67bc-e31d-4846-8e1f-86006c616a7f">
 
 ## ls
-<img width="216" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/8e7e010e-6b32-4f73-b259-01e4c32c201b">
+<img width="757" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/63adca95-8e0e-48a1-af6b-025ab50ca2cf">
 
 ## cat
-<img width="408" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/9a6f6721-2c2a-43ff-a24d-6ebd064d71b8">
+<img width="1099" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/108855b2-2fc1-43b3-aae8-4882e332e19e">
