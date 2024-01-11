@@ -2,6 +2,13 @@
 ## cd 
 <img width="419" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/b2e53e14-d2ae-4a6e-a161-2ac71f991177">
 
+## ls
+<img width="640" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/9351ffa6-9ef0-4545-88e8-949423856155">
+
+## cat
+<img width="403" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/7d103703-bc72-4a39-b27b-5feaba0b612e">
+
+
 # 2. Example of using the commend with a path to a directory as an argument with cd, ls, and cat
 ## cd Example
 <img width="308" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/0d5436ac-c2e3-4d68-bb23-aa44a14f9c3c">
