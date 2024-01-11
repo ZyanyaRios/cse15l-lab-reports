@@ -1,12 +1,19 @@
 # 1. Example of using the command with no arguments for cd, ls, and cat
-## 'cd' 
+## cd 
 <img width="419" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/b2e53e14-d2ae-4a6e-a161-2ac71f991177">
+
+* Working directory: home
+* There wasn't a clear out put when input by itself was ran. This is most likely due to cd not specified to change to a specificed directory, therefore I am still in the home directory.
+* The output is not an error necessariyl because 
 
 ## ls
 <img width="640" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/9351ffa6-9ef0-4545-88e8-949423856155">
 
 ## cat
 <img width="403" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/7d103703-bc72-4a39-b27b-5feaba0b612e">
+* Working directory: home
+* There wasn't a clear out put when input by itself was ran. This is most likely due to cd not specified to change to a specificed directory, therefore I am still in the home directory.
+* The output is an error as 
 
 
 # 2. Example of using the commend with a path to a directory as an argument with cd, ls, and cat
