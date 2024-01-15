@@ -33,7 +33,7 @@ hello
 
 
 # 2. Example of using the command with a path to a directory as an argument with cd, ls, and cat
-## cd Example
+## cd
 ```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$
