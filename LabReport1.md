@@ -70,7 +70,7 @@ bash: cd: Hello.java: Not a directory
 ```
 * Working Directory: lecture1
 * The output of `cd` with a file as an argument results in the error message of `Not a directory`. The command cannot execute its function to change directories.
-* The output is an error because the command `cd` can only be used with a directory as an argument, not a file.  
+* The output is an error because the command `cd` can only be used with a directory as an argument, not a file. The `cd` command cannot change directories to a file.  
 
 ## ls
 ```
