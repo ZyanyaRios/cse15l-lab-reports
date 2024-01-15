@@ -7,7 +7,7 @@
 ```
 
 * Working Directory: lecture1
-* The output of `cd` without an argument resulted in a change of directories from lecture1 back to home because `cd` with no arguments is a default command that brings the user back to the previous directory. 
+* The output of `cd` without an argument results in a change of directories from lecture1 back to home because `cd` with no arguments is a default command that brings the user back to the previous directory. 
 * The output is not an error. 
 
 ## ls
