@@ -1,5 +1,10 @@
 Hello, World!
 
+[Lab Report 1](https://github.com/ZyanyaRios/cse15l-lab-reports/blob/main/LabReport1.md) 
+
+
+
+
 **Hi**
 # This is heading 1
 ## This is heading 2
