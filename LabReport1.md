@@ -77,7 +77,7 @@ bash: cd: Hello.java: Not a directory
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
 ```
-* Working Directory: `home/lecture1`
+* Working Directory: `/home/lecture1`
 * The `ls` command functions with both files and directories as arguments, but the terminal will only print the file name when a file is used as an argument as it's the only element found within the file. Hence the output of `ls` with a file as an argument results in the display of the file that was used as the argument. 
 * The output is not an error.
 
@@ -97,7 +97,7 @@ F_8);
     System.out.println(content);
   }
 ```
-* Working Directory: `home/lecture1`
+* Working Directory: `/home/lecture1`
 * The output of `cat` with a file as an argument results in the display of the contents of the specified file. This is the main purpose of the `cat` command, to print out the content of files. 
 * The output is not an error.
 
