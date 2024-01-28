@@ -80,23 +80,7 @@ Hello.java
 * Working Directory: `home/lecture1`
 * The `ls` command functions with both files and directories as arguments, but the terminal will only print the file name when a file is used as an argument as it's the only element found within the file. Hence the output of `ls` with a file as an argument results in the display of the file that was used as the argument. 
 * The output is not an error.
+
 ## cat
 
-```
-[user@sahara ~/lecture1]$ cat Hello.java
-import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-
-public class Hello {
-  public static void main(String[] args) throws IOException {
-    String content = Files.readString(Path.of(args[0]), StandardCharsets.UT
-F_8);    
-    System.out.println(content);
-  }
-```
-* Working Directory: `home/lecture1`
-* The output of `cat` with a file as an argument results in the display of the contents of the specified file. This is the main purpose of the `cat` command, to print out the content of files. 
-* The output is not an error.
 
