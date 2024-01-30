@@ -6,7 +6,7 @@ Zyanya Rios; A17991938; Due: 1/30/24
 
 **Code for ChatServer**
 
-'''
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -31,6 +31,7 @@ class Handler implements URLHandler {
         }
     }
 }
+
 class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -42,7 +43,6 @@ class ChatServer {
     }
 }
 ```
-
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
 
 **1. Which methods in your code are called?** <br>
