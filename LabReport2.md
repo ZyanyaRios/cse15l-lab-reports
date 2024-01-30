@@ -5,6 +5,7 @@ Zyanya Rios; A17991938; Due: 1/30/24
 ## Part 1
 
 **Code for ChatServer**
+
 '''
 import java.io.IOException;
 import java.net.URI;
@@ -41,7 +42,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-'''
+```
 
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
 
