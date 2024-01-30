@@ -31,7 +31,6 @@ class Handler implements URLHandler {
         }
     }
 }
-```
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
