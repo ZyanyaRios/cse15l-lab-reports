@@ -27,41 +27,46 @@ When the server <br>
    * 'message' value: '"Hello"'
 
 ## Part 2
-*  The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+
+**The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)** 
 ```
+[user@sahara ~]$ ssh-keygen
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/home/.ssh/id_ed25519): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/.ssh/id_ed25519
+Your public key has been saved in /home/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:W45WBi3lK+VhY8AXfavbHnT7tdyljBoUdbQO+GjtJ1E user@sahara
+The key's randomart image is:
++--[ED25519 256]--+
+|       .. oo..o  |
+|        .=.o.... |
+|        o.@ ..E. |
+|         B O +.  |
+|        S X +.o .|
+|         @ ..o ..|
+|        + o ooo.o|
+|       .   ..=oo*|
+|          ....+oo|
++----[SHA256]-----+  
+
 [zrios@ieng6-201 ~/.ssh]$ ls ~/.ssh
 id_rsa  id_rsa.pub  known_hosts
 [zrios@ieng6-201]:.ssh:129$ ls id_rsa
 id_rsa
 ```
-* The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+* The absolute path to the public key is '/home/.ssh/id_ed25519'
+
+
+**The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)**
 ```
-[zrios@ieng6-201]:ieng6:125$ ssh-keygen -t rsa
-Generating public/private rsa key pair.
-Enter file in which to save the key (/home/linux/ieng6/oce/2l/zrios/.ssh/id_rsa): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /home/linux/ieng6/oce/2l/zrios/.ssh/id_rsa.
-Your public key has been saved in /home/linux/ieng6/oce/2l/zrios/.ssh/id_rsa.pub.
-The key fingerprint is:
-SHA256:4fIVaOqxG0KdPGTZMK6LIsWeK+SfHvmgeNIR9RW0wHk zrios@ieng6-201.ucsd.edu
-The key's randomart image is:
-+---[RSA 2048]----+
-|     .+oo.       |
-|    ..o*Eo       |
-|   . .=o* .      |
-| ..  *.= . .     |
-|  o.o O S .      |
-| +.+.o * .       |
-|=.+=o + .        |
-|=o+.=. o         |
-|.=++ ..          |
-+----[SHA256]-----+
-[zrios@ieng6-201]:ieng6:126$ cd ~/.ssh
-[zrios@ieng6-201]:.ssh:127$ ls
-authorized_keys  id_rsa  id_rsa.pub
-```  
-* A terminal interaction where you log into your ieng6 account without being asked for a password.
+
+```
+* The absolute path to the public key is '/home/.ssh/id_ed25519.pub'
+
+**A terminal interaction where you log into your ieng6 account without being asked for a password.** 
   * Completed by running ssh-keygen -t rsa in terminal, enter no passphrase,  
 ```
 [user@sahara ~]$ ssh zrios@ieng6.ucsd.edu
