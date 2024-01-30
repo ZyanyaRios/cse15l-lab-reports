@@ -29,72 +29,18 @@ When the server <br>
 ## Part 2
 
 **The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)** 
-```
-[user@sahara ~]$ ssh-keygen
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (/home/.ssh/id_ed25519): 
-Enter passphrase (empty for no passphrase): 
-Enter same passphrase again: 
-Your identification has been saved in /home/.ssh/id_ed25519
-Your public key has been saved in /home/.ssh/id_ed25519.pub
-The key fingerprint is:
-SHA256:W45WBi3lK+VhY8AXfavbHnT7tdyljBoUdbQO+GjtJ1E user@sahara
-The key's randomart image is:
-+--[ED25519 256]--+
-|       .. oo..o  |
-|        .=.o.... |
-|        o.@ ..E. |
-|         B O +.  |
-|        S X +.o .|
-|         @ ..o ..|
-|        + o ooo.o|
-|       .   ..=oo*|
-|          ....+oo|
-+----[SHA256]-----+  
-
-[zrios@ieng6-201 ~/.ssh]$ ls ~/.ssh
-id_rsa  id_rsa.pub  known_hosts
-[zrios@ieng6-201]:.ssh:129$ ls id_rsa
-id_rsa
-```
-* The absolute path to the public key is '/home/.ssh/id_ed25519'
-
+<img width="1120" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/702c4b32-82b6-4152-aa6b-f0616cce3a44">
+* The absolute path to the public key is '/home/linux/ieng6/oce/2l/zrios/.ssh/id_rsa'
 
 **The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)**
-```
-
-```
-* The absolute path to the public key is '/home/.ssh/id_ed25519.pub'
+<img width="1120" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/040668ca-a531-42be-8d6d-679435f8e60b">
+* The absolute path to the public key is '/home/linux/ieng6/oce/2l/zrios/.ssh/id_rsa.pub'
 
 **A terminal interaction where you log into your ieng6 account without being asked for a password.** 
-  * Completed by running ssh-keygen -t rsa in terminal, enter no passphrase,  
+<img width="1120" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/8f8b637b-a23d-4fcb-b56f-6fd134a28429">
 ```
-[user@sahara ~]$ ssh zrios@ieng6.ucsd.edu
-Last login: Sun Jan 28 15:08:57 2024 from tower-us10.prod.edstem.org
-quota: Cannot resolve mountpoint path /home/linux/ieng6/cs120wi24/public/.snapshot/daily.2023-12-28_0010: Stale file handle
-Hello zrios, you are currently logged into ieng6-203.ucsd.edu
+* Completed by running ssh-keygen -t rsa in terminal, enter no passphrase,  
 
-You are using 0% CPU on this system
-
-Cluster Status 
-Hostname     Time    #Users  Load  Averages  
-ieng6-201   15:10:01   42  1.77,  1.42,  1.39
-ieng6-202   15:10:01   33  1.83,  0.96,  0.93
-ieng6-203   15:10:01   26  2.36,  2.63,  2.90
-
- 
-
-To begin work for one of your courses [ cs15lwi24 ], type its name 
-at the command prompt.  (For example, "cs15lwi24", without the quotes).
-
-To see all available software packages, type "prep -l" at the command prompt,
-or "prep -h" for more options.
-[zrios@ieng6-203]:~:99$ ls
-perl5
-[zrios@ieng6-203]:~:100$ cd ~/.ssh
-[zrios@ieng6-203]:.ssh:101$ ls
-authorized_keys
-```
 - I'm not really sure what they want me to show 
 
 ## Part 3
