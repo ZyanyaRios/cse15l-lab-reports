@@ -4,11 +4,13 @@ Zyanya Rios; A17991938; Due: 1/30/24
 
 ## Part 1
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
-^ saying hi as zrios
 
 1. Which methods in your code are called?
-2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+   a) When the server is intialized the 'main' and 'Server.start'method are called. Once the server is opened up and the user inputs the valid user and message inputs into the URL bar, the 'handleRequest' method        is called. 
+3. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+   a) When the server 
+5. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+   a) When the server 
    * 'user' value: '"zrios"'
    * 'message' value: '"Hello"'
 
@@ -16,8 +18,12 @@ Zyanya Rios; A17991938; Due: 1/30/24
 ^ maria replying with hooray
 
 1. Which methods in your code are called?
-2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+   a) The 'handleRequest' method is called due to a change of input in the URL bar. Addtionally, the 'main
+    and 'Server.start' methods won't run because the server has already been intialized. 
+3. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+   a) When the server 
+5. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+   a) When the server 
 
 ## Part 2
 *  The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
