@@ -7,6 +7,7 @@ Zyanya Rios; A17991938; Due: 1/30/24
 **Code for ChatServer**
 
 ```
+```
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
@@ -31,6 +32,8 @@ class Handler implements URLHandler {
         }
     }
 }
+```
+```
 
 class ChatServer {
     public static void main(String[] args) throws IOException {
