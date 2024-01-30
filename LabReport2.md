@@ -47,10 +47,10 @@ class ChatServer {
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
 
 **1. Which methods in your code are called?** <br>
-When the server is intialized the 'main' and 'Server.start'method are called. Once the server is opened up and the user inputs a valid user and message input into the URL bar, the 'handleRequest' method is called.<br>
+When the server is intialized the `main` and `Server.start` method are called. Once the server is opened up and the user inputs a valid user and message input into the URL bar, the `handleRequest` method is called.<br>
 
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?** <br>
-Relevant arguments used in the 'handleRequest' method includes the argument 'URI url'. This argument is taken from the user's input into the url link of the server; If the user inputs `/` as the end of the url, the server will display the history message logs. Then the arguments `/add-message` allows the user to add a message text and user id. Other relevant fields of the `Handler` class includes the `chatHistory` array list that holds the history logs of the server. In this case, `Hello` and `zrios`, are the main relevant arguments in the code. These arguments are then stored into the chat history lsit. <br>
+Relevant arguments used in the `handleRequest` method includes the argument `URI url`. This argument is taken from the user's input into the URL link of the server; If the user inputs `/` as the end of the URL, the server will display the history message logs. Then the arguments `/add-message` allows the user to add a message text and user id. Other relevant fields of the `Handler` class includes the `chatHistory` array list that holds the history logs of the server. In this case, `Hello` and `zrios`, are the main relevant arguments in the code. These arguments are then stored into the chat history lsit. <br>
 
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** <br> 
 The relevant field, `chatHistory`, gets updated when the specific path request of `/add-message?s=Hello&user=zrios` is added to the URL. The field will store a new item in the list that holds the user and message input. <br>
@@ -61,7 +61,7 @@ The relevant field, `chatHistory`, gets updated when the specific path request o
 <img width="624" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/8fdb0306-0936-405e-b853-b1fbf7fdf451">
 
 **1. Which methods in your code are called?** <br>
-The 'handleRequest' method is called due to a change of input in the URL bar. Addtionally, the 'main and 'Server.start' methods won't run because the server has already been intialized. <br>
+The `handleRequest` method is called due to a change of input in the URL bar. Addtionally, the `main` and `Server.start` methods won't run because the server has already been intialized. <br>
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?** <br>
 Relevant arguments to the `handleRequest` method includes the `/add-message` path and the input of `user` and `message`, which looks like `/add-message?s=Hooray&user=maria`. Due to this update of the relevant arguments, the `chatHistory` inserts a new value for `user` and `message`. <br>
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** <br> 
