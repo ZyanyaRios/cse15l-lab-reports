@@ -24,7 +24,7 @@ Zyanya Rios; A17991938; Due: 1/30/24
 ## Part 2
 *  The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
 ```
-[user@sahara ~/.ssh]$ ls ~/.ssh
+[zrios@ieng6-201 ~/.ssh]$ ls ~/.ssh
 id_rsa  id_rsa.pub  known_hosts
 [zrios@ieng6-201]:.ssh:129$ ls id_rsa
 id_rsa
