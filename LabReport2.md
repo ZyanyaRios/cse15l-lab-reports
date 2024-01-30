@@ -6,9 +6,9 @@ Zyanya Rios; A17991938; Due: 1/30/24
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
 
 **1. Which methods in your code are called?** <br>
-When the server is intialized the 'main' and 'Server.start'method are called. Once the server is opened up and the user inputs the valid user and message inputs into the URL bar, the 'handleRequest' method        is called.<br>
+When the server is intialized the 'main' and 'Server.start'method are called. Once the server is opened up and the user inputs a valid user and message input into the URL bar, the 'handleRequest' method is called.<br>
 **2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?** <br>
-When the server <br>
+Relevant arguments used in those methods include the <br>
 **3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** <br> 
 When the server <br>
    * 'user' value: '"zrios"'
@@ -17,13 +17,14 @@ When the server <br>
 <img width="624" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/8fdb0306-0936-405e-b853-b1fbf7fdf451">
 ^ maria replying with hooray
 
-1. Which methods in your code are called?
-   a) The 'handleRequest' method is called due to a change of input in the URL bar. Addtionally, the 'main
-    and 'Server.start' methods won't run because the server has already been intialized. 
-3. What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-   a) When the server 
-5. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-   a) When the server 
+**1. Which methods in your code are called?** <br>
+The 'handleRequest' method is called due to a change of input in the URL bar. Addtionally, the 'main and 'Server.start' methods won't run because the server has already been intialized. <br>
+**2. What are the relevant arguments to those methods, and the values of any relevant fields of the class?** <br>
+Relevant arguments used in those methods include the <br>
+**3. How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.** <br> 
+When the server <br>
+   * 'user' value: '"zrios"'
+   * 'message' value: '"Hello"'
 
 ## Part 2
 *  The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
