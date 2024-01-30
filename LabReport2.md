@@ -4,7 +4,7 @@ Zyanya Rios; A17991938; Due: 1/30/24
 
 ## Part 1
 
-**Code for 'ChatServer'**
+Code for 'ChatServer'
 
 ```
 import java.io.IOException;
