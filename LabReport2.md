@@ -43,6 +43,8 @@ class ChatServer {
     }
 }
 ```
+
+**Screenshot 1**
 <img width="620" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/bb34b0ab-0460-4abc-8957-831491cc812c">
 
 **1. Which methods in your code are called?** <br>
@@ -56,6 +58,7 @@ When the server <br>
    * 'user' value: '"zrios"'
    * 'message' value: '"Hello"'
 
+**Screenshot 2**
 <img width="624" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/8fdb0306-0936-405e-b853-b1fbf7fdf451">
 
 **1. Which methods in your code are called?** <br>
