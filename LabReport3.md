@@ -192,5 +192,5 @@ $ find ./technical -size -1M
 ./technical/plos
 ```
 * In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-size`. The `-size` option allows the user to find files within a specified amount of data size. In this case, I wanted to find files that were smaller than 1 megabyte. The following output is of files that are smaller than 1 megabyte.
-<br>
+
 Source: [Computer Hope Linux Find Command Help and Examples](https://www.computerhope.com/unix/ufind.htm)
