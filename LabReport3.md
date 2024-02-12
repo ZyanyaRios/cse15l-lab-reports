@@ -64,15 +64,15 @@ After -
 ```
 Two lines were changed. 
 
-The issue was resolved by changing the array the data was being sorted to. Before the data from `newArray` was being assorted into `arr` array, however, `newArray` is an empty array. 
-Hence, the data that is being assorted into `arr` would be of the incorrect values.
+The bug was resolved by changing the array the data was being sorted to. Before the data from `newArray` was being assorted into `arr` array, however, `newArray` is an empty array and does not have the correct values we want to reverse.  
+Hence, the data that is being assorted into `arr` is of the incorrect values.
 
-So we want to sort `arr` data into `NewArray` in reverse order and return the `newArray`. 
+So we want to sort `arr` data into `NewArray` in reverse order and return the `newArray`. To do this, `arr` is changed to the right side in the for loop and `NewArray` is placed on the left side. By setting up the code like this, we grab the values of `arr` and correctly add the values to the correct order of index in the  `newArray` array. 
 
 ## Part 2 - Researching Commands
 Find 4 interesting command-line options or alternate ways to use the command you chose: `find` command 
 <br>
-1) `find -name` 
+1) `find -name` The `-name` argument finds files or directories under a specified name
 2) `find -type`
 3) `find -maxdepth`
 4) `find -size`
@@ -89,6 +89,7 @@ $ find ./technical -name "1468*.txt"
 ./technical/biomed/1468-6708-3-4.txt
 ./technical/biomed/1468-6708-3-7.txt
 ```
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-name` which allows the user to find files and directories with matching names. In this case, I wanted to find files that were `.txt` and started with `1468`. This command is useful to help narrow down file searches with similar names. 
 
 ```
 zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
@@ -110,9 +111,9 @@ $ find ./technical -name "chapter*.txt"
 ./technical/911report/chapter-8.txt
 ./technical/911report/chapter-9.txt
 ```
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-name`. In this case, I wanted to find files that were `.txt` and started with `chapter`. The following output shows the list of `.txt` tiles found within the `./technical` directory. 
 
-The `-name` argument finds files or directories under a specified name
-Source: [Linux find command summary with examples](https://www.youtube.com/watch?v=8L1oQT7nBj4)
+Source: [Linux find command summary with examples](https://www.youtube.com/watch?v=8L1oQT7nBj4) 
 
 2) Two Examples of `find -type`
 ```
@@ -130,12 +131,12 @@ $ find ./technical -type d
 ./technical/plos
 
 ```
-
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-type`. The `-type` option allows the user to find a certain type of file type. In this case, I wanted to find files that were directories as seen by the argument of `d`. This command was useful as it displays all the directories within the directories.
 ```
 zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
 $ find ./technical -type s
 ```
-Trying to find types of `symbolic link` in the `/OneDrive/Documents/GitHub/docsearch!/technical/` directory
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-type`. The `-type` option allows the user to find a certain type of file type. In this case, I wanted to find files that were symbolic links as seen by the argument of `s`. Symbolic links, also refered to as soft links, are a special file type that act like a pointer. It's like a shortcut to a certain file or directory. The output shows that there are no symbolic link types within the `./technical` directory. 
 
 Source: [Linux Crash Course - The find command](https://www.youtube.com/watch?v=skTiK_6DdqU)
 
@@ -145,6 +146,8 @@ zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
 $ find ./technical -maxdepth 0
 ./technical
 ```
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-maxdepth`. The `-maxdepth` option allows the user to limit how many directories deep the search can descend to. The number argument tells the system how many levels deep the user wants to search down. In this case, I wanted to find the files and directories that descended 0 levels deep, `-maxdepth 0`. Hence, the output only showed the directory I tried to find, `./technical`. This is a useful command if a user wants to avoid searching other subdirectories. 
+
 ```
 zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
 $ find ./technical -maxdepth 1
@@ -154,6 +157,10 @@ $ find ./technical -maxdepth 1
 ./technical/government
 ./technical/plos
 ```
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-maxdepth`. In this case, I wanted to find the files and directories that descended 1 level deep, `-maxdepth 1`. Hence, the output displays the next level of subdirectories within the `./technical` directory.
+
+Source: [Computer Hope Linux Find Command Help and Examples](https://www.computerhope.com/unix/ufind.htm)
+
 4) Two Examples of `find -size`
 ```
 zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
@@ -168,7 +175,7 @@ $ find ./technical -size +200k
 ./technical/government/Gen_Account_Office/pe1019.txt
 ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ```
-
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-size`. The `-size` option allows the user to find files within a specified amount of data size. The number and letter argument specify how big and what type of data size (bytes, kilobytes, etc.). In this case, I wanted to find files that were greater than 200 kilobytes. The following output is of files that are greater than 200 kilobytes. This is command could be useful for mananging disk space.
 ```
 zyany@ZRIOS MINGW64 ~/OneDrive/Documents/GitHub/docsearch! (main)
 $ find ./technical -size -1M
@@ -184,4 +191,6 @@ $ find ./technical -size -1M
 ./technical/government/Post_Rate_Comm
 ./technical/plos
 ```
-
+* In the working directory of `/OneDrive/Documents/GitHub/docsearch!`. I used the command `find` with the option of `-size`. The `-size` option allows the user to find files within a specified amount of data size. In this case, I wanted to find files that were smaller than 1 megabyte. The following output is of files that are smaller than 1 megabyte.
+<br>
+Source: [Computer Hope Linux Find Command Help and Examples](https://www.computerhope.com/unix/ufind.htm)
