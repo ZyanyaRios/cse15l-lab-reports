@@ -71,12 +71,12 @@ So we want to sort `arr` data into `NewArray` in reverse order and return the `n
 
 ## Part 2 - Researching Commands
 Find 4 interesting command-line options or alternate ways to use the command you chose: `find` command 
-<br>
+
 1) `find -name` The `-name` argument finds files or directories under a specified name
 2) `find -type`
 3) `find -maxdepth`
 4) `find -size`
-<br>
+
 
 1) Two Examples of `find -name`
 
