@@ -71,28 +71,39 @@ Tests run: 2,  Failures: 1
 ```
 [zrios@ieng6-202]:currlabReport7:204$ vim ListExamples.java
 ```
-![Uploading image.png…]()
+**Before: 
+<img width="714" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/f7ce5973-2be9-47d2-90ce-44a945710b90">
+**After: 
+<img width="703" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/ca65832d-e793-4078-8e06-631381fa45ef">
+To fix the code file I had to manually enter the command `vim ListExamples.java` to enter and edit it.
+Then I had to press the `<down>` key 39 times, press the `<right>` key 11 times, then entered `I` to use Insert mode. I then pressed `<backspace>` once to get rid of the `1`, and then added the number `2`. After that, I used the `<esc>` key to go back to Normal mode.
+I saved my changes by entering `:w` then `<enter>`. I repeated that process but instead entered `:q!:` to exit the program and then `<enter>`. 
 
-
-- 39 down keys
-- 11 right keys
-- Pressed I to insert
-- Back space to delete
-- Replaced 1 with 2
-- pressed esc key to get out
-- Did :w to save
-- did :wq! to exit
 ## Step 8: Run the tests, demonstrating that they now succeed
-'''
+```
 [zrios@ieng6-202]:currlabReport7:205$ bash test.sh
 JUnit version 4.13.2
 ..
 Time: 0.012
 
 OK (2 tests)
-'''
-- Manual typed in bash test.sh
-- Now all the test pass, time to commit it my github account 
+```
+To run the test, I manual had to type in `bash test.sh` and press `<enter>`
+All my test now run correctly. 
+
 ## Step 9: Commit and push the resulting change to your Github account
+```
+zyany@ZRIOS MINGW64 ~/OneDrive/Desktop/cse15l/labReport7/currlabReport7 (main)
+$ git add .
+
+zyany@ZRIOS MINGW64 ~/OneDrive/Desktop/cse15l/labReport7/currlabReport7 (main)
+$ git commit
+[main e762178] Commit and push lab7
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+<img width="1116" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/e3a4f7fe-eed3-4f19-8b7e-e4117fc7044d">
+
+<img width="753" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/70263d2c-b62a-4286-a0fd-d3a8ad4256ef">
+<img width="747" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/93dd7a20-e9f2-43f7-b1bf-c075270f189c">
 
  
