@@ -34,7 +34,7 @@ remote: Total 61 (delta 0), reused 1 (delta 0), pack-reused 60
 Receiving objects: 100% (61/61), 376.60 KiB | 2.02 MiB/s, done.
 Resolving deltas: 100% (23/23), done.
 ```
-After entering my `@ieng6` account, I copied and pasted the clone command given from the lab, `git clone https://github.com/ZyanyaRios/currlabReport7` and then pressed `<enter>`. 
+After entering my `@ieng6` account, in the terminal, I copied and pasted the clone command given from the lab, `git clone https://github.com/ZyanyaRios/currlabReport7` and then pressed `<enter>`. 
 
 ## Step 6: Run the tests, demonstrating that they fail
 ```
@@ -59,7 +59,7 @@ FAILURES!!!
 Tests run: 2,  Failures: 1
 ```
 After I cloned, I wanted to check if the tests were failing, so I manually typed in the command `bash test.sh` into the terminal and hit `<enter>`. 
-Once I hit the `<enter>` key, the terminal displayed one test failure. 
+Once I hit the `<enter>` key, the terminal displayed one test failure.
 
 ## Step 7: Edit the code file to fix the failing test
 ```
@@ -102,4 +102,4 @@ $ git commit
 <img width="753" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/70263d2c-b62a-4286-a0fd-d3a8ad4256ef">
 <img width="747" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/93dd7a20-e9f2-43f7-b1bf-c075270f189c">
 
- To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>` to add all my modified files into the current directory to the staging area. I then proceeded to type in `git commit` and `<enter>` to record a change to my file in my branch. Then finally, I ran the command `git push` to upload my local repositoryy files to my remote repository. I was prompted to add a message so I quickly added the message `Commit and push lab7` and then `<enter>`. After that my code is now updated on my main. 
+To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>` to add all my modified files into the current directory to the staging area. I then proceeded to type in `git commit` and `<enter>` to record a change to my file in my branch. Then finally, I ran the command `git push` to upload my local repositoryy files to my remote repository. I was prompted to add a message so I quickly added the message `Commit and push lab7` and then `<enter>`. After that my code is now updated on my main. 
