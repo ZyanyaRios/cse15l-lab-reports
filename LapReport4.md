@@ -65,14 +65,15 @@ Once I hit the `<enter>` key, the terminal displayed one test failure.
 ```
 [zrios@ieng6-202]:currlabReport7:204$ vim ListExamples.java
 ```
-**Before: 
+**Before:** <br>
 <img width="714" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/f7ce5973-2be9-47d2-90ce-44a945710b90">
-**After: 
+<br> 
+**After:** <br>
 <img width="703" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/ca65832d-e793-4078-8e06-631381fa45ef">
 
-To fix the test error, I had to fix a bug in the `ListExamples.java` file. To do so, I had to manually enter the command `vim ListExamples.java` in the terminal to enter and edit the `ListExamples.java` file.
+To fix the test error, I had to fix a bug in the `ListExamples.java` file. To do so, I had to manually enter the command `vim ListExamples.java` and `<enter>` in the terminal to edit the `ListExamples.java` file.
 Once I entered file, I had to press the `<down>` key 39 times, press the `<right>` key 11 times, then entered `I` to use Insert mode. I then pressed `<backspace>` once to get rid of the `1`, and then added the number `2`. After that, I used the `<esc>` key to go back to Normal mode.
-I saved my changes by entering `:w` then `<enter>`. I repeated that process but instead entered `:q!` to exit the program and then `<enter>`. 
+I saved my changes by entering `:w` then `<enter>`. Afterwards, I entered `:q!` to exit the program and then `<enter>` which took me back to my terminal.
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 ```
@@ -84,7 +85,8 @@ Time: 0.012
 OK (2 tests)
 ```
 To run the test again, I had to manually type in `bash test.sh` and press `<enter>`
-All my test now run correctly. 
+<br>
+Now, all my test run correctly. 
 
 ## Step 9: Commit and push the resulting change to your Github account
 ```
@@ -96,9 +98,8 @@ $ git commit
 [main e762178] Commit and push lab7
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
-<img width="1116" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/e3a4f7fe-eed3-4f19-8b7e-e4117fc7044d">
 
 <img width="753" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/70263d2c-b62a-4286-a0fd-d3a8ad4256ef">
 <img width="747" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/93dd7a20-e9f2-43f7-b1bf-c075270f189c">
 
- To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` in which I hit `<enter>` once I type it out . I then proceeded to type in `git commit` and `<enter>`. The finally, I ran the command `git push` to push the files. I was prompted to add a message so I quickly added `Commit and push lab7` and then `<enter>`. After that my code has now been updated on my main. 
+ To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>`. I then proceeded to type in `git commit` and `<enter>`. Then finally, I ran the command `git push` to push the files. I was prompted to add a message so I quickly added the message `Commit and push lab7` and then `<enter>`. After that my code is now updated on my main. 
