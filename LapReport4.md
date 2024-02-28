@@ -23,7 +23,7 @@ To see all available software packages, type "prep -l" at the command prompt,
 or "prep -h" for more options.
 [zrios@ieng6-202]:~:191$ 
 ```
-The first step was to log into my `@ieng6` account, so I first opened up terminal and manually typed in the command 'ssh zrios@ieng6.ucsd.edu' and pressed `<enter>`. I automatically enter without a password since I made a SSH key before hand. 
+The first step was to log into my `@ieng6` account, so I first opened up terminal and manually typed in the command `ssh zrios@ieng6.ucsd.edu` and pressed `<enter>`. I automatically enter without a password since I made a SSH key before hand. 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 ```
 [zrios@ieng6-202]:~:191$ git clone https://github.com/ZyanyaRios/currlabReport7
