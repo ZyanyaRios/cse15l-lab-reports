@@ -72,7 +72,7 @@ Once I hit the `<enter>` key, the terminal displayed one test failure.
 <img width="703" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/ca65832d-e793-4078-8e06-631381fa45ef">
 
 To fix the test error, I had to fix a bug in the `ListExamples.java` file. To do so, I had to manually enter the command `vim ListExamples.java` and `<enter>` in the terminal to edit the `ListExamples.java` file.
-Once I entered file, I had to press the `<down>` key 39 times to move down to the right line of code, then press the `<right>` key 11 times to again move to the correct character I wanted to delete, then entered `I` to use Insert mode. I then pressed `<backspace>` once to get rid of the `1`, and then added the number `2`. After that, I used the `<esc>` key to go back to Normal mode.
+Once I entered file, starting from the first line, I had to press the `<down>` key 43 times to move down to the right line of code, then press the `<right>` key 11 times to again move to the correct character I wanted to delete, then entered `I` to use Insert mode. I then pressed `<backspace>` once to get rid of the `1`, and then added the number `2`. After that, I used the `<esc>` key to go back to Normal mode.
 I saved my changes by entering `:w` then `<enter>`. Afterwards, I entered `:q!` to exit the program and then `<enter>` which took me back to my terminal.
 
 ## Step 8: Run the tests, demonstrating that they now succeed
@@ -102,4 +102,8 @@ $ git commit
 <img width="753" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/70263d2c-b62a-4286-a0fd-d3a8ad4256ef">
 <img width="747" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/93dd7a20-e9f2-43f7-b1bf-c075270f189c">
 
-To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>` to add all my modified files into the current directory to the staging area. I then proceeded to type in `git commit` and `<enter>` to record a change to my file in my branch. Then finally, I ran the command `git push` to upload my local repositoryy files to my remote repository. I was prompted to add a message so I quickly added the message `Commit and push lab7` and then `<enter>`. After that my code is now updated on my main. 
+To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>` to add all my modified files into the current directory to the staging area. I then proceeded to type in `git commit` and `<enter>` to record a change to my file in my branch, in which the terminal prompted me to add a message so I quickly added the message `Commit and push lab7` by entering, `I` to enter insert mode, typed in `Commit and push lab7`, `Esp` to exit out of insert mode, and `:wq!` to save and exit. 
+
+<img width="523" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/ccf4e165-2cad-4528-af2e-e7250ea710c1">
+
+Then finally, I ran the command `git push` and `<enter>` to send the commits from my local branch to my remote repository.  
