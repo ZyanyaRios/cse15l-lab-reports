@@ -2,6 +2,7 @@
 
 
 # Part 1 – Debugging Scenario
+
 1. Original post from a student with a screenshot showing a symptom and a description of a guess at the bug/some sense of what the failure-inducing input is
 
 **Student101:** Help! I'm working on my `grade.sh` program and it works for `https://github.com/ucsd-cse15l-f22/list-methods-lab3` and `https://github.com/ucsd-cse15l-f22/list-methods-corrected` and the compiler error one, but it doesn't work for `https://github.com/ucsd-cse15l-f22/list-methods-filename` and `https://github.com/ucsd-cse15l-f22/list-methods-nested` in the sense that they don't compile, however the program continues to grade it and tells me that the program compiles correctly. Any tips for fixing this? Additionally, I'm trying to change the merge method so it works, 
