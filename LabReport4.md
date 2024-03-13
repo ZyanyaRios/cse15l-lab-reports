@@ -90,20 +90,25 @@ Now, all my test run correctly.
 
 ## Step 9: Commit and push the resulting change to your Github account
 ```
-zyany@ZRIOS MINGW64 ~/OneDrive/Desktop/cse15l/labReport7/currlabReport7 (main)
-$ git add .
-
-zyany@ZRIOS MINGW64 ~/OneDrive/Desktop/cse15l/labReport7/currlabReport7 (main)
-$ git commit
+[zrios@ieng6-202]:currlabReport7:207$ git add .
+[zrios@ieng6-202]:currlabReport7:208$ git commit
 [main e762178] Commit and push lab7
  1 file changed, 1 insertion(+), 1 deletion(-)
+[zrios@ieng6-202]::currlabReport7:209$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:ZyanyaRios/currlabReport7.git
+        e762178..c4d039c main -> main
 ```
 
 <img width="753" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/70263d2c-b62a-4286-a0fd-d3a8ad4256ef">
 <img width="747" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/93dd7a20-e9f2-43f7-b1bf-c075270f189c">
 
 To commit and push the changes to my GitHub account, in the terminal I first ran the command `git add .` and pressed `<enter>` to add all my modified files into the current directory to the staging area. I then proceeded to type in `git commit` and `<enter>` to record a change to my file in my branch, in which the terminal prompted me to add a message so I quickly added the message `Commit and push lab7` by entering, `I` to enter insert mode, typed in `Commit and push lab7`, `Esp` to exit out of insert mode, and `:wq!` to save and exit. 
-
-<img width="523" alt="image" src="https://github.com/ZyanyaRios/cse15l-lab-reports/assets/105988785/ccf4e165-2cad-4528-af2e-e7250ea710c1">
 
 Then finally, I ran the command `git push` and `<enter>` to send the commits from my local branch to my remote repository.  
