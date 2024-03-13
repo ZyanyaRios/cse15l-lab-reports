@@ -26,15 +26,15 @@ or "prep -h" for more options.
 The first step was to log into my `@ieng6` account, so I first opened up terminal and manually typed in the command `ssh zrios@ieng6.ucsd.edu` and pressed `<enter>`. I automatically enter without a password since I made a SSH key before hand. 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 ```
-[zrios@ieng6-202]:~:191$ git clone https://github.com/ZyanyaRios/currlabReport7
+[zrios@ieng6-202]:~:194$ git git@github.com:ZyanyaRios/currlabReport7.git
 Cloning into 'currlabReport7'...
-remote: Enumerating objects: 61, done.
-remote: Counting objects: 100% (1/1), done.
-remote: Total 61 (delta 0), reused 1 (delta 0), pack-reused 60
-Receiving objects: 100% (61/61), 376.60 KiB | 2.02 MiB/s, done.
-Resolving deltas: 100% (23/23), done.
+remote: Enumerating objects: 58, done.
+remote: Total 58 (delta 0), reused (delta 0), pack-reused 58
+Receiving objects: 100% (58/58), 376.39 KiB | 1.47 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+[zrios@ieng6-202] :~:195$
 ```
-After entering my `@ieng6` account, in the terminal, I copied and pasted the clone command given from the lab, `git clone https://github.com/ZyanyaRios/currlabReport7` and then pressed `<enter>`. 
+After entering my `@ieng6` account, in the terminal, I copied and pasted the clone command given from the lab, `git clone git@github.com:ZyanyaRios/currlabReport7.git` and then pressed `<enter>`. 
 
 ## Step 6: Run the tests, demonstrating that they fail
 ```
